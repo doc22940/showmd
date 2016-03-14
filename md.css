@@ -231,3 +231,7 @@ div#navdrop {
 	margin-right: 1em;
 	margin-top: .8em;
 }
+
+H2,H3{
+	cursor: pointer;
+}
