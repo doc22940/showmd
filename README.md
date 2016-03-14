@@ -40,7 +40,7 @@ You can hard-code a config object called `App` into the HTML file to specify MD 
 
 
 
-This shows the docs for my [VCC project](https://github.com/rndme/vcc/):
+This shows the docs for my [VCC project](https://github.com/rndme/vcc/). See a [live demo](http://danml.com/md/vccdocs.html).
 
 ```html
 <!DOCTYPE html><html lang="en">
@@ -48,6 +48,7 @@ This shows the docs for my [VCC project](https://github.com/rndme/vcc/):
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="i.png">
 
 <title>Loading Documentation...</title>
 <meta name="description" content="Documentation">
