@@ -1,9 +1,22 @@
 # showmd
 View online markdown docs as a book
 
+## App Config
+```js
+App = {
+    path: "https://raw.githubusercontent.com/rndme/vcc/master/README.md",	//where is the .md file? needs cors.
+    theme: "darkly",	// the name of a bootswatch theme
+    title: "VCC Docs",	// the title of the project 
+    projectName: "VCC",	// the short name of the project
+    customCSS: "",	// custom presentation css, a url or actual rule text
+  links: {
+        "link text": "http://example.com/path/file.ext", // ...
+    },
+};
+```
 
 
-## Exmaples
+## Examples
 
 [React](http://danml.com/md/?facebook/react)
 
