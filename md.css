@@ -127,7 +127,7 @@ pre[data-title]:before {
 	margin-bottom:-.15em
 }
 
-#body .navbar {
+#body .navbar, #body .navbar-header  {
 	height:50px;
 	min-height:50px
 }
