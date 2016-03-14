@@ -36,7 +36,8 @@ These examples are hosted from a private site with the contents of this project 
 
 
 ## Hard-coded example
-You can hard-code a config object called `App` into the HTML file to specify MD content url, links, theme, and more.
+You can hard-code a config object called `App` into the HTML file to specify MD content url, links, theme, and more. Moreover, the URL endpoint is just a simple HTML document shell you can further modify as needed. Specifying these options are hard-coded HTML like `<link>` will also (slightly) decrease the viewer's load time.
+
 
 
 This shows the docs for my [VCC project](https://github.com/rndme/vcc/):
