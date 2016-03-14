@@ -89,7 +89,7 @@ aGet(App.path, function(s,x){
 			a.innerHTML=ht[0]+tail;		   
 		 }
 		 
-		 
+		  a.onclick=function(e){location.hash=a.id;};
 		  li.className+=" _"+a.tagName;
 		 
 		 
