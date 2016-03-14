@@ -89,7 +89,7 @@ aGet(App.path, function(s,x){
 			a.innerHTML=ht[0]+tail;		   
 		 }
 		 
-		  a.onclick=function(e){location.hash=a.id;};
+		 a.onclick=function(e){location.hash=a.id;};
 		  li.className+=" _"+a.tagName;
 		 
 		 
@@ -160,12 +160,12 @@ window.offsets=offsets;
 
 function whichElmInView(){
 	var st=document.body.scrollTop+70, last;
-	for(var it in offsets){
+	for(var it in window.offsets){
 	 // 	console.log(st, it, last);
 		if(it > st) break;
 	  	last=it;
 	}    
-   return offsets[last];
+   return window.offsets[last];
 }	
 
 	
@@ -197,10 +197,12 @@ function setTheme(theme){
 	localStorage.mdtheme=theme;
 	themeLink.href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/"+App.theme+"/bootstrap.min.css";
 	setTimeout(function(){
+		window.offsets={};
 		$("h2,h3").each((i,o)=>{
 		  elms[o.id]=o;
-		  offsets[o.offsetTop]=o;
+		  window.offsets[o.offsetTop]=o;
 		});
+		setTimeout(rs, 100);
 	 }, 1300);
 	  
 
