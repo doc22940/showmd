@@ -1,0 +1,233 @@
+/* MD Documentation Base and layout CSS  */
+
+
+
+body {
+	padding-top:50px
+}
+
+.sub-header {
+	padding-bottom:10px;
+	border-bottom:1px solid #eee
+}
+
+.navbar-fixed-top {
+	border:0
+}
+
+.sidebar {
+	display:none
+}
+
+@media (min-width:768px) {
+	.sidebar {
+	position:fixed;
+	top:51px;
+	bottom:0;
+	left:0;
+	z-index:1000;
+	display:block;
+	padding:20px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+
+}
+
+.nav-sidebar {
+	margin-right:-21px;
+	margin-bottom:20px;
+	margin-left:-20px
+}
+
+.nav-sidebar > li > a {
+	padding-right:20px;
+	padding-left:20px
+}
+
+.nav-sidebar > .active > a,	.nav-sidebar > .active > a:hover,	.nav-sidebar > .active > a:focus {
+
+}
+
+.main {
+	padding:20px
+}
+
+@media (min-width:768px) {
+	.main {
+	padding-right:40px;
+	padding-left:40px
+}
+
+
+}
+
+.main .page-header {
+	margin-top:0
+}
+
+pre code.hljs {
+	font-family:"lucida console",	monospace;
+	margin:0;
+	min-height:3.5em;
+	overflow:visible;
+	padding-top:1.2em
+}
+
+code {
+	padding:3px 7px;
+	font-size:90%;
+	border-radius:4px
+}
+
+pre {
+	padding:0;
+	position:relative
+}
+
+pre[data-title]:before {
+	content:" " attr(data-title);
+	display:block;
+	text-transform:uppercase;
+	background:#bbb;
+	color:#222;
+	padding:.5em
+}
+
+#content {
+	padding:1em
+}
+
+.nav>li>a {
+	padding:3px 5px
+}
+
+#body h2,	#body h3 {
+	border-top:58px solid transparent
+}
+
+#body h2 small,	#body h3 small {
+	float:right;
+	padding-top:5px
+}
+
+#body .nav ._H1 {
+	display:none
+}
+
+#body .nav ._H3 a {
+	margin:0;
+	padding:0 0 0 1em;
+	opacity:.75
+}
+
+#body .nav ._H2 a {
+	font-size:125%;
+	margin-bottom:-.15em
+}
+
+#body .navbar {
+	height:50px;
+	min-height:50px
+}
+
+.container-fluid {
+	max-width:100em
+}
+
+.navbar-brand {
+	padding:14.5px 15px
+}
+
+#navdrop li a {
+	transition:750ms background-color
+}
+
+#navbar li a {
+	font-size:15px
+}
+
+#navbar li a {
+	font-size:15px;
+	margin-right:1em;
+	margin-top:.8em
+}
+
+div#navdrop {
+	padding:25px;
+	padding-top:0
+}
+
+.main {
+	display:none
+}
+
+#body.loaded .main {
+	display:block 
+}
+
+#body {
+	position:relative
+}
+
+
+.navbar-inverse {
+	border-color:transparent
+}
+
+
+
+
+@media (min-width: 768px){
+	.sidebar {top: 52px;}
+}
+	
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus{
+	color:#fff;
+	background-color:#444;
+}
+	
+
+#body #wait{
+	text-align: center;
+	font: menu;
+	font-size: 2em;
+	position: fixed;
+	z-index: 999999;
+	top: -1px;
+	left: -1px;
+	width: 101vw;
+	height: 101vh;
+	transition: 1200ms 50ms top;
+	background: #bbb;
+	padding-top: 30vh;
+}
+
+#wrap{
+	display: none;
+}
+#body.loaded #wrap{
+	display: block;
+	position: relative;
+	
+}
+
+#body.loaded #wait{
+	top: -65vh;
+	height: 50vh;
+	padding-top: 10vh;	
+}
+
+#selTheme, #selTheme option{
+	background: #fff;
+	color: #444;
+}
+
+#selThemeBox {
+	position: absolute;
+	top: 13px;
+	right: 100px;
+}
