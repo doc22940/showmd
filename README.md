@@ -14,9 +14,15 @@ App = {
     },
 };
 ```
+The config is also settable by the URL as GET parameters, except `links`.
+
+There is a shortcut to [github](https://github.com/) projects in the URL config: queryString as `?author/project`, which sets author, projectName, path (to README.md), and title based on the built URL. You cannot set other options like theme with this shortcut, but it's short and sweet.
+
 
 
 ## Examples
+
+These examples are hosted from a private site with the contents of this project dumped to a [web folder](http://danml.com/md/).
 
 [React](http://danml.com/md/?facebook/react)
 
