@@ -31,7 +31,7 @@
 <div id=wrap>
   <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <div class="navbar-header">
+        <div class="navbar-header ">
           <button type="button" class="navbar-toggle collapsed" 
 				  data-toggle="collapse" data-target="#navbar" 
 				  aria-expanded="false" aria-controls="navbar">
@@ -42,32 +42,21 @@
           </button>
           <a class="navbar-brand" href="#" id=projectName></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse btn-default">		
-          <ul class="nav navbar-nav navbar-right" id=mylinks></ul>
+        <div id="navbar" class="navbar-collapse collapse navbar-inverse">		
 	  <form class="navbar-form navbar-right" >
             	<label id=selThemeBox> <small style='color:#888'>Theme:</small>
 			<select id=selTheme onchange=setTheme(value)>
-				<option>cerulean</option>
-				<option>cosmo</option>
-				<option>cyborg</option>
-				<option>darkly</option>
-				<option>flatly</option>
-				<option>journal</option>
-				<option>lumen</option>
-				<option>paper</option>
-				<option>readable</option>
-				<option>sandstone</option>
-				<option>simplex</option>
-				<option>slate</option>
-				<option>spacelab</option>
-				<option>superhero</option>
-				<option>united</option>
+				<option>cerulean</option><option>cosmo</option><option>cyborg</option>
+				<option>darkly</option><option>flatly</option><option>journal</option>
+				<option>lumen</option><option>paper</option><option>readable</option>
+				<option>sandstone</option><option>simplex</option><option>slate</option>
+				<option>spacelab</option><option>superhero</option><option>united</option>
 				<option>yeti</option>
 			</select>
 			
 		</label>
           </form>
-
+          <ul class="nav navbar-nav navbar-right" id=mylinks></ul>
         </div>
       </div>
     </nav>
@@ -81,7 +70,10 @@
 		
 			<hr>
 			<footer id=footer>
-				 &nbsp; <small><a href=#top>Back to top</a> - &copy; <span id=authorName>project author</span>
+				 &nbsp; <small><a href=#top>Back to top</a></small> - &copy; <span id=authorName>project author</span>
+
+				  <small><a target=_blank href=https://github.com/rndme/showmd/>md viewer by rndme</a>
+
 			</footer>
 	  
         </div>
@@ -90,10 +82,11 @@
   
 
 
-
+<!-- CDN depends and local app script -->
 <script src=//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js></script>
 <script src=md.js></script>		  
 </div>
 </body>
