@@ -77,24 +77,13 @@ This shows the docs for my [VCC project](https://github.com/rndme/vcc/). See a [
 		   <form class="navbar-form navbar-right" >
             	<label id=selThemeBox> <small style='color:#888'>Theme:</small>
 			<select id=selTheme onchange=setTheme(value)>
-				<option>cerulean</option>
-				<option>cosmo</option>
-				<option>cyborg</option>
-				<option>darkly</option>
-				<option>flatly</option>
-				<option>journal</option>
-				<option>lumen</option>
-				<option>paper</option>
-				<option>readable</option>
-				<option>sandstone</option>
-				<option>simplex</option>
-				<option>slate</option>
-				<option>spacelab</option>
-				<option>superhero</option>
-				<option>united</option>
+				<option>cerulean</option><option>cosmo</option><option>cyborg</option>
+				<option>darkly</option><option>flatly</option><option>journal</option>
+				<option>lumen</option><option>paper</option><option>readable</option>
+				<option>sandstone</option><option>simplex</option><option>slate</option>
+				<option>spacelab</option><option>superhero</option><option>united</option>
 				<option>yeti</option>
 			</select>
-			
 		</label>
           </form>
 		            <ul class="nav navbar-nav navbar-right" id=mylinks></ul>
