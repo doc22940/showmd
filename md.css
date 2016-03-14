@@ -225,3 +225,9 @@ div#navdrop {
 	background: #fff;
 	color: #444;
 }
+
+#navbar form {
+	font-size: 15px;
+	margin-right: 1em;
+	margin-top: .8em;
+}
