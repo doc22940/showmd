@@ -127,7 +127,7 @@ pre[data-title]:before {
 	margin-bottom:-.15em
 }
 
-#body .navbar, #body .navbar-header  {
+#body .navbar {
 	height:50px;
 	min-height:50px
 }
@@ -234,4 +234,14 @@ div#navdrop {
 
 H2,H3{
 	cursor: pointer;
+}
+
+nav.navbar {
+	box-shadow: 0 2px 2px #888;
+}
+
+@media (min-width: 768px){
+	#body .navbar-collapse.collapse {
+		height: 50px !important;
+	}
 }
