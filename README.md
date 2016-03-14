@@ -54,6 +54,22 @@ This shows the docs for my [VCC project](https://github.com/rndme/vcc/). See a [
 <meta name="description" content="Documentation">
 <meta name="author" content="rndme">
 
+<script> // doc config:
+App = {
+    path: "https://raw.githubusercontent.com/rndme/vcc/master/README.md",   //where is the .md file? needs cors.
+    theme: "darkly",    // the name of a bootswatch theme
+    title: "VCC Docs",  // the title of the project 
+    projectName: "VCC", // the short name of the project
+    customCSS: "",  	// custom presentation css, a url or actual rule text
+  links: {		// links to be added to top nav bar (max 4 recommended):
+		"Component Library": "http://danml.com/vcc/lib/",
+		Download: "http://danml.com/bundle/rndme.vcc_.js",
+		Plugins: "http://danml.com/vcc/plugins/",
+		"Github Project": "https://github.com/rndme/vcc",
+	},
+};
+</script>
+
 <link rel=stylesheet id=themeLink >	
 <link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/googlecode.min.css>
 <link rel=stylesheet href=md.css>
@@ -101,23 +117,7 @@ This shows the docs for my [VCC project](https://github.com/rndme/vcc/). See a [
       </div>
     </div>
   
-
-<script>
-App = {
-    path: "https://raw.githubusercontent.com/rndme/vcc/master/README.md",   //where is the .md file? needs cors.
-    theme: "darkly",    // the name of a bootswatch theme
-    title: "VCC Docs",  // the title of the project 
-    projectName: "VCC", // the short name of the project
-    customCSS: "",  	// custom presentation css, a url or actual rule text
-  links: {		// links to be added to top nav bar (max 4 recommended):
-		"Component Library": "http://danml.com/vcc/lib/",
-		Download: "http://danml.com/bundle/rndme.vcc_.js",
-		Plugins: "http://danml.com/vcc/plugins/",
-		"Github Project": "https://github.com/rndme/vcc",
-	},
-};
-</script>
-
+<!-- cdn depends and local app script -->
 <script src=//code.jquery.com/jquery-1.11.1.min.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js></script>
