@@ -17,7 +17,7 @@ View online markdown docs as a book
 
 
 ## Hard-coded example
-You can hard-code a JSON sonfig object into the HTML file to specify MD content url, links, theme, and more.
+You can hard-code a config object called `App` into the HTML file to specify MD content url, links, theme, and more.
 
 
 This shows the docs for my [VCC project](https://github.com/rndme/vcc/):
