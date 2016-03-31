@@ -245,3 +245,15 @@ nav.navbar {
 		height: 50px !important;
 	}
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	 border-color: transparent; 
+	 border: 0px; 
+}
+
+@media (min-width: 768px){
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+		margin-right: -1px;
+		margin-left: -1px;
+	}
+}
