@@ -18,7 +18,8 @@ The config is also settable by the URL as GET parameters, except `links`.
 
 There is a shortcut to [github](https://github.com/) projects in the URL config: queryString as `?author/project`, which sets author, projectName, path (to README.md), and title based on the built URL. You cannot set other options like theme with this shortcut, but it's short and sweet.
 
-
+## How to Use
+Clone the project and host. Adjust index.html to hard-code a cerain .md file, or use the queryString interface.
 
 ## Examples
 
